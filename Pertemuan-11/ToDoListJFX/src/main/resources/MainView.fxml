@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="306.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yunhasnawa.MainController">
+    <children>
+        <Label layoutX="8" layoutY="8" text="Masukkan Kegiatan Anda:"/>
+        <TextField fx:id="txtKegiatan" layoutX="158.0" layoutY="8" prefWidth="300"/>
+        <Button fx:id="btnTambah" layoutX="468.0" layoutY="8" onAction="#onBtnTambah_Action" prefWidth="90" text="Tambah"/>
+        <ListView fx:id="lstDaftarKegiatan" layoutX="9.0" layoutY="42.0" prefHeight="254.0" prefWidth="548.0"/>
+    </children>
+</AnchorPane>
